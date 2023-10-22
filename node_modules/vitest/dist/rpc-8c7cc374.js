@@ -1,0 +1,6 @@
+const rpc = () => {
+  return process.__vitest_worker__.rpc;
+};
+
+export { rpc as r };
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoicnBjLThjN2NjMzc0LmpzIiwic291cmNlcyI6WyIuLi9zcmMvcnVudGltZS9ycGMudHMiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNvbnN0IHJwYyA9ICgpID0+IHtcbiAgcmV0dXJuIHByb2Nlc3MuX192aXRlc3Rfd29ya2VyX18hLnJwY1xufVxuIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFZLE1BQUMsR0FBRyxHQUFHLE1BQU07QUFDekIsRUFBRSxPQUFPLE9BQU8sQ0FBQyxpQkFBaUIsQ0FBQyxHQUFHLENBQUM7QUFDdkM7OyJ9

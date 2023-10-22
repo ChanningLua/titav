@@ -1,29 +1,43 @@
 {
-   "name": "@channing/titav",
-   "version": "1.0.1",
-   "main": "./dist/titav.cjs",
-   "module": "./dist/titav.mjs",
-   "types": "./dist/src/lib.d.ts",
-   "files": [
-      "/dist",
-      "readme.md"
-   ],
-   "scripts": {
-      "dev": "cross-env MODE=demo vite",
-      "build": "npm run test && cross-env MODE=production vite build && node scripts/rename",
-      "build:demo": "cross-env MODE=demo vite build",
-      "test": "vitest run",
-      "test:watch": "vitest watch"
-   },
-   "devDependencies": {
-      "@types/node": "16.11.21",
-      "cross-env": "7.0.3",
-      "eslint": "8.7.0",
-      "eslint-config-airbnb-typescript-prettier": "5.0.0",
-      "prettier": "2.5.1",
-      "typescript": "4.5.5",
-      "vite": "2.7.13",
-      "vite-plugin-dts": "0.9.9",
-      "vitest": "0.2.5"
-   }
+  "name": "titav",
+  "version": "1.0.1",
+  "main": "./dist/titav.cjs",
+  "module": "./dist/titav.mjs",
+  "types": "./dist/src/lib.d.ts",
+  "files": [
+    "/dist",
+    "readme.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChanningLua/titav.git"
+  },
+  "scripts": {
+    "dev": "cross-env MODE=demo vite",
+    "build": "npm run test && cross-env MODE=production vite build && node scripts/rename",
+    "build:demo": "cross-env MODE=demo vite build",
+    "test": "vitest run",
+    "test:watch": "vitest watch"
+  },
+  "devDependencies": {
+    "@types/node": "16.11.21",
+    "cross-env": "7.0.3",
+    "eslint": "8.7.0",
+    "eslint-config-airbnb-typescript-prettier": "5.0.0",
+    "prettier": "2.5.1",
+    "typescript": "4.5.5",
+    "vite": "2.7.13",
+    "vite-plugin-dts": "0.9.9",
+    "vitest": "0.2.5"
+  },
+  "description": "It doesn't provide `THE BEST PERFORMANCE` but I think it is easy to understand.",
+  "bugs": {
+    "url": "https://github.com/ChanningLua/titav/issues"
+  },
+  "homepage": "https://github.com/ChanningLua/titav#readme",
+  "directories": {
+    "test": "tests"
+  },
+  "author": "Channing",
+  "license": "ISC"
 }

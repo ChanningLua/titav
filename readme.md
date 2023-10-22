@@ -5,15 +5,15 @@ It doesn't provide `THE BEST PERFORMANCE` but I think it is easy to understand.
 ## Installation
 
 ```
-npm install @channing/titav
+npm install titav
 ```
 
 ```
-pnpm add @channing/titav
+pnpm add titav
 ```
 
 ```
-yarn add @channing/titav
+yarn add titav
 ```
 
 ## Demo

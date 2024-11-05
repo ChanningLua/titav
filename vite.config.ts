@@ -13,9 +13,9 @@ const productionConfig = defineConfig({
       }),
    ],
    build: {
-      target: 'es2020',
+      target: 'esnext',
       lib: {
-         entry: path.resolve(root, 'src', 'ExternalNavigator.ts'),
+         entry: path.resolve(root, 'src', 'index.ts'),
          formats: ['es', 'cjs'],
       },
    },

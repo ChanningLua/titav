@@ -19,9 +19,8 @@
     "test:watch": "vitest watch"
   },
   "dependencies": {
-    "compare-versions": "^6.1.0",
-    "dsbridge": "^3.1.4",
-    "message-core": "^1.0.2"
+    "deepmerge": "^4.3.1",
+    "quick-lru": "^7.0.0"
   },
   "devDependencies": {
     "@types/node": "16.11.21",

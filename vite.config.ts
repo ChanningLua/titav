@@ -15,7 +15,7 @@ const productionConfig = defineConfig({
    build: {
       target: 'es2020',
       lib: {
-         entry: path.resolve(root, 'src', 'lib.ts'),
+         entry: path.resolve(root, 'src', 'ExternalNavigator.ts'),
          formats: ['es', 'cjs'],
       },
    },
@@ -23,7 +23,7 @@ const productionConfig = defineConfig({
 
 const demoConfig = defineConfig({
    root: path.join(root, 'demo'),
-   base: '/titav/',
+   base: '/dsbridge-external/',
    build: {
       emptyOutDir: true,
       outDir: path.join(root, 'dist-demo'),

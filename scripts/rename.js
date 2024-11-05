@@ -5,5 +5,5 @@ const path = require('path');
 
 const root = process.cwd();
 
-fs.renameSync(path.join(root, 'dist', 'titav.cjs.js'), path.join(root, 'dist', 'titav.cjs'));
-fs.renameSync(path.join(root, 'dist', 'titav.es.js'), path.join(root, 'dist', 'titav.mjs'));
+fs.renameSync(path.join(root, 'dist', 'dsbridge-external.cjs.js'), path.join(root, 'dist', 'dsbridge-external.cjs'));
+fs.renameSync(path.join(root, 'dist', 'dsbridge-external.es.js'), path.join(root, 'dist', 'dsbridge-external.mjs'));

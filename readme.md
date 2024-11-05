@@ -1,21 +1,17 @@
-# An Entity-Component-System inspired by Bevy Engine.
+# Global message pool
 
-It doesn't provide `THE BEST PERFORMANCE` but I think it is easy to understand.
+
 
 ## Installation
 
 ```
-npm install titav
+npm install dsbridge-external
 ```
 
 ```
-pnpm add titav
+pnpm add dsbridge-external
 ```
 
 ```
-yarn add titav
+yarn add dsbridge-external
 ```
-
-## Demo
-
-You can view a demo in `/demo/main.ts` and [Online](https://github.com/ChanningLua/titav/tree/master/demo)

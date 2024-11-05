@@ -13,7 +13,8 @@
       "resolveJsonModule": true,
       "esModuleInterop": true,
       "allowSyntheticDefaultImports": true,
-      "noEmit": true
+      "noEmit": true,
+      "experimentalDecorators": true
    },
    "include": ["./src/**/*", "vite.config.ts", "./demo/**/*", "./tests/**/*", "./vite-env.d.ts"]
 }
